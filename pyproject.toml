@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "neo4j_tools"
+version = "0.4.0"
+description = "A package for convenience methods and other tools when working with Neo4j and GDS"
+authors = ["Zach Blumenfeld <zach.blumenfeld@neo4j.com>"]
+license = "Apache Software License"
+readme = "README.md"
+homepage = "https://github.com/neo4j-product-examples/neo4j-tools"
+repository = "https://github.com/neo4j-product-examples/neo4j-tools"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+graphdatascience = "^1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
