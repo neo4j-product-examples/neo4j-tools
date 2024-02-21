@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "neo4j_tools"
-version = "0.5.0"
+version = "0.5.1"
 description = "A package for convenience methods and other tools when working with Neo4j and GDS"
 authors = ["Zach Blumenfeld <zach.blumenfeld@neo4j.com>"]
 license = "Apache Software License"
